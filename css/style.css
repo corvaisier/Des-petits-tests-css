@@ -1,0 +1,33 @@
+@keyframes effet_tv_1{
+	from {
+    height: 10px;}
+  70% {
+    top: 0%;
+    width: 10px;
+    margin-left: -5px;
+    left: 50%;
+    height: 100%;
+    margin-top: 0px;}
+  100% {
+    width: 100%;
+    top: 0%;
+    left: 0%;
+    height: 100%;
+    margin-left: -0%;
+    margin-top: 0px;
+       }
+                    }
+.trait-vertical{
+  position: absolute;
+  background-color: white;
+  width: 10px;
+  top: 50%;
+  margin-top: -5px;
+  margin-left: -5px;
+  left: 50%;
+  animation: effet_tv_1 1s linear 0s 1 normal forwards;
+}
+.noir{
+  background-color: black;
+  margin: 0px;
+}
