@@ -1,0 +1,69 @@
+.rond-1 {
+border-radius: 50%;
+width: 20%;
+height: 0;
+padding-bottom: 20%;
+background-color: #FF0000;
+display: inline-block;
+position: absolute;
+top: 50%;
+margin-top: -10%;
+}
+.noir{
+  background-color: black;
+  margin: 0px;
+}
+.container {
+  width: 80%;
+  position: absolute;
+  top: 50%;
+  margin-left: 10%;
+}
+@keyframes uprouda {
+  from {
+    margin-top: -10%;
+  }
+  14% {
+    background-color: #FF7F00;
+  }
+  10% {
+    margin-top: -20%;
+  }
+  20% {
+    margin-top: -10%;
+  }
+  28% {
+    background-color: #FFFF00;
+  }
+  42% {
+    background-color: #00FF00;
+  }
+  56% {
+    background-color: #0000FF;
+  }
+  70% {
+    background-color: #4B0082;
+  }
+  84% {
+    background-color: #8B00FF;
+  }
+}
+.rouda {
+  animation: uprouda 1.5s linear 0s infinite normal forwards;
+}
+.roudb {
+  margin-left: 20%;
+  animation: uprouda 1.5s linear 0.1s infinite normal forwards;
+}
+.roudc {
+  margin-left: 40%;
+  animation: uprouda 1.5s linear 0.2s infinite normal forwards;
+}
+.roudd {
+  margin-left: 60%;
+  animation: uprouda 1.5s linear 0.3s infinite normal forwards;
+}
+.roude {
+  margin-left: 80%;
+  animation: uprouda 1.5s linear 0.4s infinite normal forwards;
+}
